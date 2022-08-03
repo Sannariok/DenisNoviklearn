@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    
+    src: local("Gilroy"),
+         
+         url("/fonts/Gilroy-Medium.woff2") format("woff2");
+}
+  
+@font-face {
+    font-family: "GilroyB";
+    font-style: normal;
+    font-weight: 400;
+    
+    src: local("GilroyB"),
+         
+         url("/fonts/Gilroy-Bold.woff2") format("woff2");
+}
+
+
+.boldI {
+    font-family: "GilroyB", "Arial", sans-serif;
+}
+.medium {
+    font-family: "Gilroy", "Arial", sans-serif;
+}
+
